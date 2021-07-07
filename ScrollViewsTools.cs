@@ -26,7 +26,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
-[SLua.CustomLuaClass]
 public class ScrollViewsTools : UIBehaviour, IInitializePotentialDragHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IScrollHandler//, ICanvasElement, ILayoutElement, ILayoutGroup
 {
     private Transform temTransform;
